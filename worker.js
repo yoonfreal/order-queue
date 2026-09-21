@@ -22,5 +22,8 @@ worker.on('failed', (job, err) => {
 async function processOrder(order) {
   return true;
 }
+// async function processOrder(order) {
+//   throw new Error('Simulated failure for demo');
+// }
 
 module.exports = worker;
