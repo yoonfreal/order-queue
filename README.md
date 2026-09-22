@@ -95,15 +95,6 @@ async function processOrder(order) {
 
 Restart the worker and send an order. It will retry 3 times with increasing delay (exponential backoff) before giving up. Revert the change afterward.
 
-### Optional: queue dashboard
-
-```bash
-npm install @bull-board/express @bull-board/api
-node dashboard.js
-```
-
-Open `http://localhost:3001/admin/queues` to see waiting, active, completed, and failed jobs in a web UI.
-
 ## Tools Used
 
 - [BullMQ](https://docs.bullmq.io/) — Redis-backed job queue for Node.js
