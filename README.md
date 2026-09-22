@@ -21,7 +21,7 @@ order-queue-demo/
 ├── queue.js            # Shared Queue instance + Redis connection config
 ├── worker.js            # Worker process — consumes and processes jobs
 ├── burst.js             # Fires 20 orders at once to demo controlled concurrency
-└── dashboard.js          # Bull Board — web UI for inspecting the queue (optional)
+
 ```
 
 ## Prerequisites
